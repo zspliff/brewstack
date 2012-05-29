@@ -1,4 +1,6 @@
 Brewstackproj::Application.routes.draw do
+  resources :breweries
+
   resources :beers
 
   resources :users
