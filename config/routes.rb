@@ -1,4 +1,8 @@
 Brewstackproj::Application.routes.draw do
+  resources :beers
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
